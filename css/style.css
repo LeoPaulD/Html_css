@@ -1,6 +1,66 @@
-h1 {
-    color: red;
+body {
+     background-image: url("../images/cinema.jpeg"); 
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-content: center;
+
+
+
+
 }
+.box {
+    display: flex;
+	flex-direction: column;
+	
+	justify-content: center;
+    align-items: center;
+}
+.header {
+    width: 30%;
+    height: 3em;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: beige;
+}
+.image {
+    width: 30%;
+    background-image: url("../images/vforvendetta.jpg");
+    border: 3px solid black;
+    height: 400px;
+
+    
+}
+
+.description {
+    width: 30%;
+    background-color: beige;
+    border: 3px solid black;
+   
+}
+
+
+
+h1 {
+    /* color: white; */
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
 
 
 

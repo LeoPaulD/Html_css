@@ -1,0 +1,54 @@
+body {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-content: center;
+}
+.box {
+    width: 70%;
+}
+.header {
+   
+   text-align: center;  
+    
+}
+img {
+   
+    background-image: url("../images/vforvendetta.jpg");
+    
+    height: 400px;
+
+    float: left;
+
+    margin-right: 30px;
+    
+}
+
+
+
+h1 {
+    /* color: white; */
+    text-align: center;
+    color: brown;
+    font-size: 3em;
+    
+}
+
+h1:hover {
+    /* color: white; */
+    text-align: center;
+    color: rgb(82, 12, 12);
+    font-size: 4em;
+    
+}
+
+
+p { 
+   
+    font-size: 1.6em;
+}
+
+a { 
+    text-decoration: none;
+}
