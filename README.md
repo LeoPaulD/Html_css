@@ -9,7 +9,7 @@ https://www.grafikart.fr/tutoriels/html
 https://www.grafikart.fr/tutoriels/css
 
 
-Pour placer sont contenu sur une page web et pouvoir rendre responsive sa page web !
+## Placer les éléments sur une page et rendre responsive sa page web !
 
 ### CSS - Utilisation de flexbox :
 
@@ -17,5 +17,40 @@ https://flexbox.help/
 
 https://flexboxfroggy.com/#fr 
 (Petit jeu )
+
+
+## les logiciels utiles :
+
+### Visual Studio Code 
+
+Top du top : Visual Studio Code ( Linux / windonws et mac)
+https://code.visualstudio.com/
+
+#### Ajouter des extensions pour écricre plus facilement son code 
+
+##### HTML Snippets : Lorsqu'on commence à déclarer une variable html il l'a complète
+
+Par exemple j'écris HTML, le snippet va créer toute la structure !
+
+##### Beautify 
+
+Pour mettre en forme votre code html et le rendre facilement lisible 
+
+### Note Pad ++
+
+https://notepad-plus-plus.org/downloads/v7.9/
+
+### Bracket 
+
+http://brackets.io/
+
+
+
+
+
+
+
+
+
 
 
