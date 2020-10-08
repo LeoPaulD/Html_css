@@ -8,6 +8,9 @@ https://www.grafikart.fr/tutoriels/html
 
 https://www.grafikart.fr/tutoriels/css
 
+## Jouer en apprenant : 
+
+https://apprendre-html.3wa.fr/html/structure-html-listes/base-langage-html-2/mettre-commentaire-code-html
 
 ## Placer les éléments sur une page et rendre responsive sa page web !
 
