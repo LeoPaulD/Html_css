@@ -22,6 +22,11 @@ https://flexboxfroggy.com/#fr
 (Petit jeu )
 
 
+## Regarder le code des autres et s'en inspirer : 
+
+https://codepen.io/search/pens?q=html
+
+
 ## les logiciels utiles :
 
 ### Visual Studio Code 
