@@ -53,11 +53,15 @@ body {
 h1 {
     /* color: white; */
     text-align: center;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 
