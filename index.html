@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- pour faire le lien entre sa page html et sa page css  -->
     <link rel="stylesheet" href="css/style.css">
@@ -14,15 +16,48 @@
 </head>
 
 <body>
-    <a href="pages/film.html">
-    
-        <div class="box" >
-            <div class="header"><h1>V for Vendetta</h1></div>
-            <div class="image"></div>
-            <div class="description" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi mollitia rem rerum architecto accusamus fuga suscipit deserunt placeat exercitationem, voluptatem assumenda quae quisquam, sapiente harum pariatur corrupti voluptatum magnam!</div>
-        </div>
 
-    </a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">V for Vendetta</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/film.html">Film</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Réalisateurs</a>
+              </li>
+            
+        </div>
+      </nav>
+      <div class="d-flex flex-row justify-content-center align-items-center mt-5">
+        <div class="card" style="width: 25rem;">
+            <img src="images/vforvendetta.jpg" class="card-img-top" alt="V for Vendetta">
+            <div class="card-body">
+              <h5 class="card-title">V for Vendetta</h5>
+              <p class="card-text">V pour Vendetta (V for Vendetta) est un film américano-germano-britannique, réalisé par James McTeigue et sorti en 2006. C'est une adaptation du roman graphique V pour Vendetta (1982-1990) d'Alan Moore et David Lloyd. Le scénario est dû aux Wachowski.</p>
+              <a href="pages/film.html" class="btn btn-primary">En savoir plus</a><a href="#" class="btn btn-primary ml-3">Le réalisateur</a>
+            </div>
+          </div>
+      </div>
+      
+      
+
+
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
 </body>
 
 </html>
