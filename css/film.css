@@ -1,3 +1,6 @@
+
+/* Flexbox super important mes a apprendre plus tard */
+/* S'entrainer sur frogflex et flexbox.help */
 body {
     display: flex;
 	flex-direction: row;
@@ -28,17 +31,19 @@ img {
 
 
 h1 {
-    /* color: white; */
+    
     text-align: center;
     color: brown;
     font-size: 3em;
+    /* J'ajoute une police à mes paragraphes que j'ai précédement installé dans le head de ma page html*/
     font-family: 'Shadows Into Light', cursive;
     
 }
-
+/* Changement d'état lorsque je passe ma souris au dessus de mon titre */
+/* le titre devient plus foncé et sa taille augmente*/
 h1:hover {
-    /* color: white; */
-    text-align: center;
+    
+    
     color: rgb(82, 12, 12);
     font-size: 4em;
     
@@ -48,9 +53,11 @@ h1:hover {
 p { 
    
     font-size: 1.4em;
+    /* J'ajoute une police à mes paragraphes */
     font-family: 'Open Sans', sans-serif;
 }
 
 a { 
+    /* J'enlève le surlignement sur mes éléments liens */
     text-decoration: none;
 }

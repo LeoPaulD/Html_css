@@ -1,5 +1,9 @@
 body {
-     background-image: url("../images/cinema.jpeg"); 
+     /*J'ajoute mon image du cinema en fond d'écran  */
+     /* je vais chercher mon image donc je sors de mon dossier css puis je rentre dans le dossier images et je récupère mon image cinema.jpeg */
+    background-image: url("../images/cinema.jpeg"); 
+
+
     background-repeat: no-repeat;
     -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -51,7 +55,7 @@ body {
 
 
 h1 {
-    /* color: white; */
+    
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
 }
@@ -61,6 +65,7 @@ a {
     color: black;
 }
 p {
+    /* J'ajoute une police d'écriture à mes paragraphes  */
   font-family: 'Open Sans', sans-serif;
 }
 
